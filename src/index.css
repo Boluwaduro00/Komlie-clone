@@ -1,13 +1,144 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', 'Mulish';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+}
+
+.left-section {
+  width: 492px;
+  padding: 30px;
+  background-color: #0F1C1C;
+  height: 600px;
+}
+
+.left-text{
+  color: white;
+}
+
+.App {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+}
+
+.welcome {
+  color: #377E7F;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.middle-text {
+  padding: 120px;
+  text-align: center;
+}
+
+.left-button {
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  padding: 5px ;
+  width: 93px;
+  margin: auto;
+  height: 36px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.google {
+  color: #EB5757;
+  height: 40px;  
+  font-size: 27px;
+}
+
+.fb {
+  height: 40px;
+  color: #0075C5;
+  font-size: 25px;
+}
+
+.fb2 {
+  color: white;
+  background: #0075C5;
+  border-radius: 100%;
+  font-size: 25px;
+  margin: 6px;
+}
+
+.text {
+  margin-top: 0;
+  color: #6F7777 ;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+.right-section {
+  margin: 20px;
+  padding-top: 30px;
+}
+
+.details {
+  display: grid;
+  gap: 12px;
+  padding-top: 20px;
+}
+
+.details > input {
+  height: 48px;
+  width: 540px;
+  text-indent: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #E7E8E8;
+}
+
+.button {
+  height: 48px;
+  width: 540px;
+  background: #377E7F;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.lock {
+  height: 15px;
+}
+
+.reset {
+  margin: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+.password-reset {
+  padding: 30px;
+  color: #009AD3;
+  font-family: 'Open Sans';
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+hr{
+  border: 1px solid #CFD2D2;
+  border-top:  #CFD2D2;
+  overflow: visible;
+  text-align: center;
+  height: 1px;
+}
+hr::after {
+  background: #fff;
+  content: 'OR';
+  padding: 0 15px;
+  position: relative;
+  top: -10px; 
+  color: #6F7777;
 }
